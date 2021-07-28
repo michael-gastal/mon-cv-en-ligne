@@ -7,4 +7,16 @@ class PagesController < ApplicationController
 
   def infos
   end
+
+  def projects
+  end
+
+  def experiences
+  end
+
+  def formation
+  end
+
+  def skills
+  end
 end
