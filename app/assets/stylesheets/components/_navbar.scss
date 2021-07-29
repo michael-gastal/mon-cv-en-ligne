@@ -13,10 +13,15 @@
   }
 }
 
-.navbar-cv .home-link {
-  font-size: 24px;
+.navbar-cv .home-link{
+  font-size: 24px !important;
 }
 
 .navbar-cv .right-links .navbar-link {
-  padding-left: 8px;
+  padding: 17px 8px;
+}
+
+.navbar-active {
+  background-color: $green !important;
+  color: white !important;
 }
