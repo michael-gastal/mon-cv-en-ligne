@@ -1,11 +1,18 @@
-<div class="navbar-cv">
+<div class="navbar navbar-expand-lg navbar-dark navbar-cv">
   <%= link_to "Michaël Gastal", root_path, class: "home-link" %>
-  <div class="right-links">
-    <%= link_to "A propos de moi", infos_path, class: "navbar-link" %>
-    <%= link_to "Mes projets", projects_path, class: "navbar-link" %>
-    <%= link_to "Mon expérience", experiences_path, class: "navbar-link" %>
-    <%= link_to "Ma formation", formation_path, class: "navbar-link" %>
-    <%= link_to "Mes compétences", skills_path, class: "navbar-link" %>
-    <%= link_to "Me contacter", contact_path, class: "navbar-link" %>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="right-links collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-nav mr-auto">
+      <%= link_to "A propos de moi", infos_path, class: "navbar-link" %>
+      <%= link_to "Mes projets", projects_path, class: "navbar-link" %>
+      <%= link_to "Mon expérience", experiences_path, class: "navbar-link" %>
+      <%= link_to "Ma formation", formation_path, class: "navbar-link" %>
+      <%= link_to "Mes compétences", skills_path, class: "navbar-link" %>
+      <%= link_to "Me contacter", contact_path, class: "navbar-link" %>
+    </div>
   </div>
 </div>
