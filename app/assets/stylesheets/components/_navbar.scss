@@ -1,5 +1,5 @@
 .navbar-cv {
-  background-color: white;
+  background-color: $green;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .navbar-cv a {
-  color: $green;
+  color: white;
   &:hover {
     text-decoration: none;
   }
@@ -22,6 +22,8 @@
 }
 
 .navbar-active {
-  background-color: $green !important;
-  color: white !important;
+  background-color: white!important;
+  color: $green !important;
+  border-radius: 4px 4px 0 0;
+  padding-top: 12px !important;
 }
