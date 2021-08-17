@@ -1,0 +1,22 @@
+.myself-card {
+  width: 300px;
+  margin: 32px;
+  box-shadow: 0 0 16px $light-gray;
+
+  .social-networks {
+    font-size: 24px;
+
+    a {
+      color: #d8f3dc;
+
+      &:hover{
+        color: $green;
+      }
+    }
+  }
+}
+
+.light-green-background {
+  background-color: #d8f3dc;
+  padding: 16px;
+}
