@@ -1,13 +1,15 @@
-.myself-card {
+.profile-card {
   width: 300px;
   margin: 32px;
-  box-shadow: 0 0 16px $light-gray;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 
   .social-networks {
     font-size: 24px;
+    padding: 12px 0;
 
     a {
-      color: #d8f3dc;
+      color: #95d5b2;
+      padding: 0 8px;
 
       &:hover{
         color: $green;
@@ -18,5 +20,14 @@
 
 .light-green-background {
   background-color: #d8f3dc;
-  padding: 16px;
+  padding: 32px 16px;
+
+  h2 {
+    padding: 8px 0;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
 }
