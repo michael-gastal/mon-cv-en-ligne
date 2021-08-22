@@ -1,11 +1,14 @@
+.home-page {
+  display: flex;
+  position: relative;
+}
+
 .text-white {
   color: white;
 }
 
 .presentation {
-  width: 800px;
-  margin: 0 auto;
-  padding: 16px;
+  padding: 16px 16px 16px 156px;
 
   h2 {
     margin: 16px 0;
