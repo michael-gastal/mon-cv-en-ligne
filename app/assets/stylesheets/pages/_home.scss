@@ -1,7 +1,13 @@
-.gray-background {
-  background-color: $gray;
-}
-
 .text-white {
   color: white;
+}
+
+.presentation {
+  width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+
+  h2 {
+    margin: 16px 0;
+  }
 }
