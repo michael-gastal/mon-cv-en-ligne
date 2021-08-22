@@ -23,7 +23,7 @@
 
 .profile-main-section {
   padding: 32px 16px;
-
+  position: relative;
   h2 {
     padding: 8px 0;
     margin: 0;
@@ -32,4 +32,14 @@
   p {
     margin: 0;
   }
+}
+
+.round {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }
