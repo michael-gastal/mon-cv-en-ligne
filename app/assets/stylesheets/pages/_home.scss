@@ -3,6 +3,12 @@
   position: relative;
 }
 
+@media (max-width: 576px) {
+  .home-page {
+    flex-direction: column;
+  }
+}
+
 .presentation {
   padding: 16px 16px 16px 156px;
 
