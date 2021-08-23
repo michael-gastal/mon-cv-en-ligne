@@ -2,8 +2,6 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  top: 86px;
   z-index: 1000;
 
   .social-networks {
@@ -18,6 +16,13 @@
         color: $green;
       }
     }
+  }
+}
+
+@media (min-width: 576px) {
+  .profile-card {
+    position: absolute;
+    top: 86px;
   }
 }
 
