@@ -10,9 +10,15 @@
 }
 
 .presentation {
-  padding: 16px 16px 16px 156px;
+  padding: 16px 16px 16px 16px;
 
   h2 {
     margin: 16px 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .presentation {
+    padding: 16px 16px 16px 156px;
   }
 }
