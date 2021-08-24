@@ -24,6 +24,17 @@
     position: absolute;
     top: 86px;
   }
+
+
+  .round {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
 }
 
 .profile-main-section {
@@ -37,14 +48,4 @@
   p {
     margin: 0;
   }
-}
-
-.round {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  border: 2px solid white;
-  position: absolute;
-  top: 16px;
-  right: 16px;
 }
